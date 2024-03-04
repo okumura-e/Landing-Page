@@ -14,11 +14,11 @@ This repository contains a Landing Page built with Angular 17 using SSR mechanis
 
 <img src="/src/assets/layout.png" />
 
-<h3>Prerequisites</h3>
+<h3>‼️ Prerequisites</h3>
 
 You will need **NPM** to run this project.
 
-<h3>Cloning</h3>
+<h3>📃 Cloning</h3>
 
 How to clone your project
 
@@ -27,7 +27,7 @@ git clone https://github.com/okumura-e/Landing-Page.git
 cd Landing-Page
 ```
 
-<h3>Starting</h3>
+<h3>🏁 Starting</h3>
 
 Now you just need to install dependencies then run it.
 
