@@ -1,0 +1,16 @@
+.footer-section {
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 1000px) {
+    .footer-section {
+        padding: 100px 70px 77px;
+    
+        .social-media {
+            display: flex;
+            gap: 30px;
+        }
+    }
+}
