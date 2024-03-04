@@ -3,7 +3,7 @@
 main {
     display: flex;
     flex-direction: column;
-    gap: 84px;
+    gap: 40px;
 }
 .main-section{
     display: flex;
@@ -19,7 +19,7 @@ main {
     }
     
     h1 {
-        font-size: 72px;
+        font-size: 22px;
         font-weight: 900;
         color: $primary-text;
     }
@@ -27,16 +27,17 @@ main {
 
 .benefit-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 30px;
     align-items: center;
     justify-content: center;
     
     .benefit-data {
-        border-bottom: 10px solid $secondary-color;
+        border-bottom: 4px solid $secondary-color;
         padding-bottom: 40px;
 
         h2 {
-            font-size: 60px;
+            font-size: 20px;
             font-weight: 600;
             font-family: "Roboto", sans-serif;
             color: $primary-text;
@@ -44,7 +45,7 @@ main {
     }
     p {
         font-weight: 300;
-        font-size: 40px;
+        font-size: 15px;
         font-style: italic;
 
         b{
@@ -62,12 +63,73 @@ main {
     align-items: center;
 }
 
+.cards-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cte-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    h4 {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
 @media (min-width: 1000px) {
+    main {
+        gap: 84px;
+    }
     .main-section {
         flex-direction: row;
+        gap: 52px;
+
+        h1 {
+            font-size: 72px;
+        }
     }
     .benefit-section {
         flex-direction: row;
+        gap: 70px;
+    }
+    .cards-section {
+        flex-direction: row;
+    }
+    img {
+        width: 669px;
+        height: 536px;
+    }
+    .benefit-section {
+        .benefit-data {
+            border-bottom: 10px solid $secondary-color;
+    
+            h2 {
+                font-size: 60px;
+            }
+        }
+        p {
+            font-size: 40px;
+        }
+    }
+    .cte-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    
+        h4 {
+            font-family: "Roboto", sans-serif;
+            font-size: 60px;
+            font-weight: 700;
+        }
     }
 }
 

@@ -1,15 +1,15 @@
 <app-header></app-header>
 
 <main>
-    <section class="main-section p-70">
+    <section class="main-section max-width">
         <div class="headline">
             <span>KIPPER CONSULTORIA</span>
             <h1>A consultoria que você busca para o seu software</h1>
         </div>
-        <img ngSrc="assets/principal.png" priority width="669" height="536">
+        <img ngSrc="assets/principal.png" priority width="250" height="200">
     </section>
 
-    <section class="benefit-section p-70">
+    <section class="benefit-section p-70 max-width">
         <div class="benefit-data">
             <h2>
                 95% das <br/> empresas
@@ -23,4 +23,16 @@
     </section>
 
     <newsletter-form></newsletter-form>
+
+    <section class="cards-section p-70 max-width">
+        <app-card-component title="Equipe Capacitada" image="card-1.png"></app-card-component>
+        <app-card-component title="Seus Projetos Guiados Do Zero" image="card-2.png"></app-card-component>
+    </section>
+
+    <section class="cte-section p-70">
+        <h4>Quer elevar seu software e seus <br/> negócios para outro nível?</h4>
+        <btn-primary btn-text="Fale com nossos especialistas"></btn-primary>
+    </section>
 </main>
+
+<app-footer></app-footer>
