@@ -12,7 +12,7 @@
 
 This repository contains a Landing Page built with Angular 17 using SSR mechanism.
 
-<img src="/src/assets/principalpng" />
+<img src="/src/assets/layout.png" />
 
 <h3>Prerequisites</h3>
 
