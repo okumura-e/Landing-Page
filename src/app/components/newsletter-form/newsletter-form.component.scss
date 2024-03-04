@@ -1,6 +1,10 @@
 @import "../../../color-variables.scss";
 
 .form-section {
+    background-color: #351686;
+}
+
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,12 +12,11 @@
     color: white;
     gap: 50px;
 
-    padding: 40px 70px;
-    background-color: #351686;
-
+    
     h3 {
-        font-size: 36px;
+        font-size: 26px;
         font-weight: 600;
+        margin-bottom: 20px;
     }
 
     p {
@@ -46,10 +49,19 @@
     }
 }
 
-@media(min-width: 1080px) {
-    .form-section {
+@media(min-width: 1000px) {
+    .main {
         flex-direction: row;
         gap: 115px;
-        padding: 40px 120px;
+        padding: 40px 0px;
+
+        h3 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+    
+        p {
+            font-size: 16px;
+        }
     }
 }

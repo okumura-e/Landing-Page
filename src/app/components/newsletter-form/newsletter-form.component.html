@@ -1,22 +1,22 @@
 <section class="form-section">
-    <div class="text">
-        <h3>Fique por dentro das tendências</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora doloremque vel velit dolore natus autem a adipisci deleniti enim, quasi accusamus nostrum nisi quos sapiente aliquid, voluptate eaque rerum temporibus.</p>
+        <div class="max-width main">
+        <div class="text">
+            <h3>Fique por dentro das tendências</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora doloremque vel velit dolore natus autem a
+                adipisci deleniti enim, quasi accusamus nostrum nisi quos sapiente aliquid, voluptate eaque rerum
+                temporibus.</p>
+        </div>
+    
+        <form [formGroup]="newsletterForm">
+            <label for="name">Nome:</label>
+            <input id="name" type="text" formControlName="name">
+    
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" formControlName="email">
+    
+            <btn-primary (submit)="onSubmit()" btn-text="Se inscreva" variant="secondary" [disabled]="!newsletterForm.valid"
+                [loading]="loading()">
+            </btn-primary>
+        </form>
     </div>
-
-    <form [formGroup]="newsletterForm">
-        <label for="name">Nome:</label>
-        <input id="name" type="text" formControlName="name">
-    
-        <label for="email">E-mail:</label>
-        <input id="email" type="email" formControlName="email">
-    
-        <btn-primary 
-            (submit)="onSubmit()" 
-            btn-text="Se inscreva"
-            variant="secondary"
-            [disabled]="!newsletterForm.valid"
-            [loading]="loading()">
-        </btn-primary>
-    </form>
 </section>
