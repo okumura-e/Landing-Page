@@ -2,7 +2,7 @@
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
 
-<h1 align="center" style="font-weight: bold;">Landing Page with SSR</h1>
+<h1 align="center" style="font-weight: bold;">Landing Page with SSR</h1> 
 
 ![angular][ANGULAR__BADGE]
 ![typescript][TYPESCRIPT__BADGE]
